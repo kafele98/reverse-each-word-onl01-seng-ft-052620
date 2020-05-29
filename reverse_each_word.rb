@@ -1,6 +1,5 @@
 def reverse_each_word(sentence1)
-  spilt_sentence1=[]
-  split_sentence1<< sentence1.split (" ")
+  sentence1_reversed = sentence1.split(" ").reverse.join(" ")
 end 
 
-puts reverse_each_word(sentence1)
+puts 
